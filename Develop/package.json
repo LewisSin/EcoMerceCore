@@ -1,28 +1,28 @@
 {
-    "name": "module-13-challenge-orm",
+    "name": "ecomercecore",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js",
-      "watch": "nodemon server.js",
-      "seed": "node seeds/index.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "watch": "nodemon server.js",
+        "seed": "node seeds/index.js"
     },
     "repository": {
-      "type": "git",
-      "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+        "type": "git",
+        "url": "git@github.com:LewisSin/EcoMerceCore.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-      "nodemon": "^2.0.3"
+        "nodemon": "^2.0.3"
     },
     "dependencies": {
-      "dotenv": "^8.6.0",
-      "express": "^4.18.2",
-      "mysql2": "^2.1.0",
-      "sequelize": "^6.32.1"
+        "dotenv": "^8.6.0",
+        "express": "^4.18.2",
+        "mysql2": "^2.1.0",
+        "sequelize": "^6.32.1"
     }
-  }
+}
